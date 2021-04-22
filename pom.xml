@@ -35,4 +35,14 @@
       </plugin>
     </plugins>
   </build>
+   <repositories>
+        <repository>
+            <id>myMavenRepo.read</id>
+            <url>https://mymavenrepo.com/repo/FN8PIshHk5uALNhkXbhs/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
 </project>
